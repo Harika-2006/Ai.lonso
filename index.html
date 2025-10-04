@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI.lonso – Aston Martin F1 Chatbot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background: #006341; /* Aston Martin Green */
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    .main-container {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+
+    .avatar-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(160deg, #006341, #0a0a0a);
+      padding: 20px;
+    }
+
+    .avatar-section img {
+      max-width: 80%;
+      max-height: 80%;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .chat-section {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      background: #1a1a1a;
+      padding: 0;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+      min-height: 700px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #00ff9d;
+      text-decoration: none;
+    }
+
+    /* Responsive for mobile */
+    @media (max-width: 900px) {
+      .main-container {
+        flex-direction: column;
+      }
+      .avatar-section {
+        flex: none;
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    🏎 AI.lonso – Your Aston Martin F1 Chatbot
+  </header>
+
+  <div class="main-container">
+    <!-- Left: Avatar -->
+    <div class="avatar-section">
+      <img src="C:\Users\saiha\OneDrive\Pictures\Harika\1.jpg" alt="Fernando Alonso Avatar">
+    </div>
+
+    <!-- Right: Chatbot -->
+    <div class="chat-section">
+        <iframe
+        src="https://www.chatbase.co/chatbot-iframe/yV6vRo57uzBoy8PZjeUx_"
+        width="100%"
+        style="height: 100%; min-height: 700px"
+        frameborder="0"
+    ></iframe>
+    </div>
+  </div>
+
+  
+</body>
+</html>
